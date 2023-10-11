@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router'; // CLI imports router
 import { HomeComponent } from './home/home.component'; // CLI imports router
+import { ProfiloComponent } from './profilo/profilo.component'; // CLI imports router
 
 const routes: Routes = [
     { path: 'home', component: HomeComponent },
+    { path: 'profilo', component: ProfiloComponent },
     { path: '',   redirectTo: '/home', pathMatch: 'full' }, // redirect to `first-component`
 ]; // sets up routes constant where you define your routes
 

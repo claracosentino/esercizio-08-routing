@@ -5,6 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ProfiloComponent } from './profilo/profilo.component';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    ProfiloComponent
   ],
   bootstrap: [
     AppComponent
